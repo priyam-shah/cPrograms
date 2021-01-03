@@ -12,7 +12,7 @@ int linearSearch(int n, int arr[], int k)
 
 int binerySearch(int n, int arr[], int k)
 {
-	int s = 0, e = n;
+	int s = 0, e = n-1;
 	while (s <= e)
 	{
 		int mid = (s+e)/2;
